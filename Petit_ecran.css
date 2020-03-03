@@ -1,0 +1,76 @@
+/* Configuration d'un affichage sur des écrans de petites tailles (1024px max) */
+@media screen and (max-width: 1024px)
+{
+
+	h1
+	{
+		font-size: 3.5em;
+	}
+
+	h2
+	{
+		font-size: 3em;
+		margin-bottom: 20px;
+	}
+
+	h3
+	{
+		font-size: 2em;
+		margin: 15px;
+	}
+
+	p
+	{
+		font-size: 1.8em;
+	}
+
+	#bloc
+	{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+/* Affichage de l'en-tête avec la photo */
+	header
+	{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.box_header
+	{
+		flex: 2;
+	}
+
+	.box_photo_petit_ecran
+	{
+		flex: 1
+	}
+
+	.photo_petit_ecran
+	{
+		text-align: center;
+	}
+
+	.bloc1
+	{
+		padding: 10px;
+	}
+
+	.box_reco
+	{
+		display: block;
+	}
+
+	.bloc2
+	{
+		display: flex;
+		flex-direction: column;
+		padding: 10px;
+	}
+
+	.box_photo
+	{
+		display: none;
+	}
+} 
