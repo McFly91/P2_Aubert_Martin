@@ -1,5 +1,5 @@
-/* Configuration d'un affichage sur des écrans de petites tailles (1024px max) */
-@media screen and (max-width: 1024px)
+/* Configuration d'un affichage sur des écrans de petites tailles (1023px max) */
+@media screen and (max-width: 1023px)
 {
 
 	h1
@@ -24,10 +24,26 @@
 		font-size: 1.8em;
 	}
 
+	.date br 
+	{
+		display: none;
+	}
+
+
 	#bloc
 	{
 		display: flex;
 		flex-direction: column-reverse;
+	}
+
+	.box_descriptionF1, .box_descriptionF2, .box_descriptionF3, .box_descriptionF4, .box_descriptionE1, .box_descriptionE2, .box_descriptionE3
+	{
+		display: block;
+	}
+
+	.date, .box_date p
+	{
+		margin: 0;
 	}
 
 /* Affichage de l'en-tête avec la photo */

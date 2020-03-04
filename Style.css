@@ -53,7 +53,7 @@ body
 	border-bottom: solid #00B0FF;
 }
 
-@media screen and (min-width: 1025px)
+@media screen and (min-width: 1024px)
 {
 	.photo_petit_ecran
 	{
