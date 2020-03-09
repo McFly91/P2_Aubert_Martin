@@ -1,98 +1,98 @@
 /* Configuration d'un affichage sur des écrans de petites tailles (1023px max) */
-@media screen and (max-width: 1023px)
-{
-
-	h1
+	@media screen and (max-width: 1023px)
 	{
-		font-size: 2.5em;
-	}
 
-	h2
-	{
-		font-size: 1.5em;
-		margin-bottom: 20px;
-	}
+		h1
+		{
+			font-size: 2.5em;
+		}
 
-	h3
-	{
-		font-size: 1.2em;
-		margin: 15px;
-	}
+		h2
+		{
+			font-size: 1.5em;
+			margin-bottom: 20px;
+		}
 
-	.fa-2x
-	{
-		font-size: 1.2em;
-	}
+		h3
+		{
+			font-size: 1.2em;
+			margin: 15px;
+		}
 
-	img
-	{
-		max-width: 100%;
-		height: auto;
-	}
+		.fa-2x
+		{
+			font-size: 1.2em;
+		}
 
-	.date br 
-	{
-		display: none;
-	}
+		img
+		{
+			max-width: 100%;
+			height: auto;
+		}
+
+		.date br 
+		{
+			display: none;
+		}
 
 
-	#bloc
-	{
-		display: flex;
-		flex-direction: column-reverse;
-	}
+		#bloc
+		{
+			display: flex;
+			flex-direction: column-reverse;
+		}
 
-	.box_descriptionF1, .box_descriptionF2, .box_descriptionF3, .box_descriptionF4, .box_descriptionE1, .box_descriptionE2, .box_descriptionE3
-	{
-		display: block;
-	}
+		.box_descriptionF1, .box_descriptionF2, .box_descriptionF3, .box_descriptionF4, .box_descriptionE1, .box_descriptionE2, .box_descriptionE3
+		{
+			display: block;
+		}
 
-	.date, .box_date p
-	{
-		margin: 0;
-	}
+		.date, .box_date p
+		{
+			margin: 0;
+		}
 
-/* Affichage de l'en-tête avec la photo */
-	header
-	{
-		display: flex;
-		justify-content: space-between;
-	}
+	/* Affichage de l'en-tête avec la photo */
+		header
+		{
+			display: flex;
+			justify-content: space-between;
+		}
 
-	.box_header
-	{
-		flex: 2;
-	}
+		.box_header
+		{
+			flex: 2;
+		}
 
-	.box_photo_petit_ecran
-	{
-		flex: 1
-	}
+		.box_photo_petit_ecran
+		{
+			flex: 1
+		}
 
-	.photo_petit_ecran
-	{
-		text-align: center;
-	}
+		.photo_petit_ecran
+		{
+			text-align: center;
+		}
 
-	.bloc1
-	{
-		padding: 10px;
-	}
+		.bloc1
+		{
+			padding: 10px;
+		}
 
-	.box_reco
-	{
-		display: block;
-	}
+		.box_reco
+		{
+			display: block;
+		}
 
-	.bloc2
-	{
-		display: flex;
-		flex-direction: column;
-		padding: 10px;
-	}
+		.bloc2
+		{
+			display: flex;
+			flex-direction: column;
+			padding: 10px;
+		}
 
-	.box_photo
-	{
-		display: none;
-	}
-} 
+		.box_photo
+		{
+			display: none;
+		}
+	} 
